@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #202124;
+    color: white;
+}
+
+.container{
+    margin-top: 5%;
+}
+
+.row{
+    height: auto;
+}
+
+.left-bar{
+    min-height: 455px;
+    height: auto;
+    border: 1px solid white;
+    border-radius:2%;
+    text-align: center;
+}
+.right-bar{
+    min-height: 455px;
+    height: auto;
+    border: 1px solid white;
+    border-radius:2%;
+    text-align: center;
+}
+.content{
+    min-height: 400px;
+    height: auto;
+    border: 1px solid white;
+    border-radius:2%;
+}
+ul{
+    list-style: none;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+ul>li{
+
+    border-bottom: 1px solid rgb(49, 152, 212);
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+ul>li:hover{
+
+    background-color: rgb(110, 95, 75);
+    transition: all 1s;
+}
+#okeys{
+    color: green;
+    
+}
+#okeys:hover{
+    background-color: darkgreen;
+    color: white;
+    
+}
+#later{
+    color: rgb(160, 58, 58);
+}
+#later:hover{
+    background-color: red;
+    color: white;
+}
+#cleatbtn{
+    margin-right: 3px;
+    position: fixed;
+}
+.delete{
+    margin-top: 5px;
+    margin-left: 5px;
+    height: 20px;
+    width: 30px;
+    background-color: rgb(77, 13, 13);
+    color: white;
+    float: left;
+    cursor: pointer;
+    font-size: small;
+    border-radius: 20%;
+}
+a:hover{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.delete:hover{
+    background-color:red;
+}
+input[type="checkbox"]{
+    margin-right: 10px;
+    margin-left: 15px;
+    margin-top: 3px;
+    float: left;
+}
+.tamamla{
+    color: green;
+    text-decoration: line-through;
+}
+
