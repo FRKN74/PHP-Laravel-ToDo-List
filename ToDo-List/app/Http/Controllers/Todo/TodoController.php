@@ -44,8 +44,9 @@ class TodoController extends Controller
     }
     public function todoGerial(Request $request,$id)
     {   
-        $güncel = Todo::find($id);
-        Todo::where('durum','none')->delete();
+        $güncel = Todo::findOrFail($id);
+        $güncel->durum = "none";
+        $güncel->update();
 
         return redirect()->route('index');
 
